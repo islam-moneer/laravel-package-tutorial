@@ -1,5 +1,5 @@
 <?php
 
 Route::get('myview/{name}', function($name){
-    return view('myview.index');
+    return view('myview.index', compact($name));
 });
