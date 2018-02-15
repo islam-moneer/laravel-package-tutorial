@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "islam-moneer\\laravel-package-tutorial\\src\\MakeViewServiceProvider"
+                "IslamMoneer\\MakeView\\MakeViewServiceProvider"
             ]
         }
     }
