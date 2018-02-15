@@ -1,0 +1,28 @@
+{
+    "name": "islam-moneer/laravel-package-tutorial",
+    "description": "create view",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Islam Moneer",
+            "email": "islam.moneer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": ">=5.0,<5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "islam-moneer\\laravel-package-tutorial\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "islam-moneer\\laravel-package-tutorial\\MakeViewServiceProvider"
+            ]
+        }
+    }
+}
