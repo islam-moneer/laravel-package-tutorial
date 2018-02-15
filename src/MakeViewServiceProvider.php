@@ -14,6 +14,10 @@ class MakeViewServiceProvider  extends ServiceProvider
 //        Load package logic
         $this->loadRoutesFrom(__DIR__.'/view/display-view.php');
 
+//        Publish views
+        $this->publishes([
+            __DIR__ . '/view/views/myview/' => resource_path('myview'),
+        ]);
     }
     /**
      * Register the application services.
