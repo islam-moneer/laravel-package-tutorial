@@ -16,7 +16,7 @@ class MakeViewServiceProvider  extends ServiceProvider
 
 //        Publish views
         $this->publishes([
-            __DIR__ . '/view/views/myview/' => resource_path('myview'),
+            __DIR__ . '/view/views/' => resource_path('views/vendor/islam-moneer'),
         ]);
     }
     /**
