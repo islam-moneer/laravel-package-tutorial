@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "islam-moneer\\laravel-package-tutorial\\": "src"
+            "IslamMoneer\\MakeView\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "islam-moneer\\laravel-package-tutorial\\MakeViewServiceProvider"
+                "IslamMoneer\\MakeView\\MakeViewServiceProvider"
             ]
         }
     }
